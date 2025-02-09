@@ -1,0 +1,568 @@
+{
+  "$schema": "https://zed.dev/schema/icon_themes/v0.1.0.json",
+  "name": "OpenMoji Emoji Icon Theme",
+  "author": "Coty Hamilton",
+  "themes": [
+    {
+      "name": "OpenMoji Icon Theme",
+      "appearance": "dark",
+      "directory_icons": {
+        "collapsed": "./icons/themes/color/file-folder.svg",
+        "expanded": "./icons/themes/color/open-file-folder.svg"
+      },
+      "file_icons": {
+        "astro": {
+          "path": "./icons/themes/color/rocket.svg"
+        },
+        "audio": {
+          "path": "./icons/themes/color/speaker-low-volume.svg"
+        },
+        "bun": {
+          "path": "./icons/themes/color/rabbit-face.svg"
+        },
+        "c": {
+          "path": "./icons/themes/color/racing-car.svg"
+        },
+        "code": {
+          "path": "./icons/themes/color/page-facing-up.svg"
+        },
+        "coffeescript": {
+          "path": "./icons/themes/color/hot-beverage.svg"
+        },
+        "cpp": {
+          "path": "./icons/themes/color/input-latin-uppercase.svg"
+        },
+        "css": {
+          "path": "./icons/themes/color/artist-palette.svg"
+        },
+        "dart": {
+          "path": "./icons/themes/color/bullseye.svg"
+        },
+        "default": {
+          "path": "./icons/themes/color/page-facing-up.svg"
+        },
+        "diff": {
+          "path": "./icons/themes/color/bar-chart.svg"
+        },
+        "docker": {
+          "path": "./icons/themes/color/spouting-whale.svg"
+        },
+        "document": {
+          "path": "./icons/themes/color/memo.svg"
+        },
+        "elixir": {
+          "path": "./icons/themes/color/droplet.svg"
+        },
+        "elm": {
+          "path": "./icons/themes/color/deciduous-tree.svg"
+        },
+        "erlang": {
+          "path": "./icons/themes/color/pager.svg"
+        },
+        "eslint": {
+          "path": "./icons/themes/color/gear.svg"
+        },
+        "font": {
+          "path": "./icons/themes/color/input-latin-lowercase.svg"
+        },
+        "fsharp": {
+          "path": "./icons/themes/color/performing-arts.svg"
+        },
+        "gleam": {
+          "path": "./icons/themes/color/sparkles.svg"
+        },
+        "go": {
+          "path": "./icons/themes/color/hamster.svg"
+        },
+        "graphql": {
+          "path": "./icons/themes/color/bar-chart.svg"
+        },
+        "haskell": {
+          "path": "./icons/themes/color/abacus.svg"
+        },
+        "hcl": {
+          "path": "./icons/themes/color/wrench.svg"
+        },
+        "heroku": {
+          "path": "./icons/themes/color/cloud.svg"
+        },
+        "image": {
+          "path": "./icons/themes/color/framed-picture.svg"
+        },
+        "java": {
+          "path": "./icons/themes/color/hot-beverage.svg"
+        },
+        "javascript": {
+          "path": "./icons/themes/color/ledger.svg"
+        },
+        "julia": {
+          "path": "./icons/themes/color/bar-chart.svg"
+        },
+        "kotlin": {
+          "path": "./icons/themes/color/bullseye.svg"
+        },
+        "lock": {
+          "path": "./icons/themes/color/locked.svg"
+        },
+        "log": {
+          "path": "./icons/themes/color/clipboard.svg"
+        },
+        "lua": {
+          "path": "./icons/themes/color/crescent-moon.svg"
+        },
+        "nim": {
+          "path": "./icons/themes/color/cat-face.svg"
+        },
+        "nix": {
+          "path": "./icons/themes/color/snowflake.svg"
+        },
+        "ocaml": {
+          "path": "./icons/themes/color/two-hump-camel.svg"
+        },
+        "php": {
+          "path": "./icons/themes/color/elephant.svg"
+        },
+        "prettier": {
+          "path": "./icons/themes/color/nail-polish.svg"
+        },
+        "prisma": {
+          "path": "./icons/themes/color/gem-stone.svg"
+        },
+        "python": {
+          "path": "./icons/themes/color/snake.svg"
+        },
+        "r": {
+          "path": "./icons/themes/color/bar-chart.svg"
+        },
+        "react": {
+          "path": "./icons/themes/color/atom-symbol.svg"
+        },
+        "ruby": {
+          "path": "./icons/themes/color/gem-stone.svg"
+        },
+        "rust": {
+          "path": "./icons/themes/color/crab.svg"
+        },
+        "sass": {
+          "path": "./icons/themes/color/nail-polish.svg"
+        },
+        "scala": {
+          "path": "./icons/themes/color/chart-increasing.svg"
+        },
+        "settings": {
+          "path": "./icons/themes/color/gear.svg"
+        },
+        "storage": {
+          "path": "./icons/themes/color/floppy-disk.svg"
+        },
+        "swift": {
+          "path": "./icons/themes/color/flamingo.svg"
+        },
+        "tcl": {
+          "path": "./icons/themes/color/high-voltage.svg"
+        },
+        "template": {
+          "path": "./icons/themes/color/clipboard.svg"
+        },
+        "terminal": {
+          "path": "./icons/themes/color/desktop-computer.svg"
+        },
+        "terraform": {
+          "path": "./icons/themes/color/building-construction.svg"
+        },
+        "toml": {
+          "path": "./icons/themes/color/page-facing-up.svg"
+        },
+        "typescript": {
+          "path": "./icons/themes/color/blue-book.svg"
+        },
+        "vcs": {
+          "path": "./icons/themes/color/package.svg"
+        },
+        "video": {
+          "path": "./icons/themes/color/film-frames.svg"
+        },
+        "vue": {
+          "path": "./icons/themes/color/green-heart.svg"
+        },
+        "zig": {
+          "path": "./icons/themes/color/high-voltage.svg"
+        }
+      }
+    },
+    {
+      "name": "OpenMoji Icon Theme Grayscale (Light)",
+      "appearance": "light",
+      "directory_icons": {
+        "collapsed": "./icons/themes/grayscale/light/file-folder.svg",
+        "expanded": "./icons/themes/grayscale/light/open-file-folder.svg"
+      },
+      "file_icons": {
+        "astro": {
+          "path": "./icons/themes/grayscale/light/rocket.svg"
+        },
+        "audio": {
+          "path": "./icons/themes/grayscale/light/speaker-low-volume.svg"
+        },
+        "bun": {
+          "path": "./icons/themes/grayscale/light/rabbit-face.svg"
+        },
+        "c": {
+          "path": "./icons/themes/grayscale/light/racing-car.svg"
+        },
+        "code": {
+          "path": "./icons/themes/grayscale/light/page-facing-up.svg"
+        },
+        "coffeescript": {
+          "path": "./icons/themes/grayscale/light/hot-beverage.svg"
+        },
+        "cpp": {
+          "path": "./icons/themes/grayscale/light/input-latin-uppercase.svg"
+        },
+        "css": {
+          "path": "./icons/themes/grayscale/light/artist-palette.svg"
+        },
+        "dart": {
+          "path": "./icons/themes/grayscale/light/bullseye.svg"
+        },
+        "default": {
+          "path": "./icons/themes/grayscale/light/page-facing-up.svg"
+        },
+        "diff": {
+          "path": "./icons/themes/grayscale/light/bar-chart.svg"
+        },
+        "docker": {
+          "path": "./icons/themes/grayscale/light/spouting-whale.svg"
+        },
+        "document": {
+          "path": "./icons/themes/grayscale/light/memo.svg"
+        },
+        "elixir": {
+          "path": "./icons/themes/grayscale/light/droplet.svg"
+        },
+        "elm": {
+          "path": "./icons/themes/grayscale/light/deciduous-tree.svg"
+        },
+        "erlang": {
+          "path": "./icons/themes/grayscale/light/pager.svg"
+        },
+        "eslint": {
+          "path": "./icons/themes/grayscale/light/gear.svg"
+        },
+        "font": {
+          "path": "./icons/themes/grayscale/light/input-latin-lowercase.svg"
+        },
+        "fsharp": {
+          "path": "./icons/themes/grayscale/light/performing-arts.svg"
+        },
+        "gleam": {
+          "path": "./icons/themes/grayscale/light/sparkles.svg"
+        },
+        "go": {
+          "path": "./icons/themes/grayscale/light/hamster.svg"
+        },
+        "graphql": {
+          "path": "./icons/themes/grayscale/light/bar-chart.svg"
+        },
+        "haskell": {
+          "path": "./icons/themes/grayscale/light/abacus.svg"
+        },
+        "hcl": {
+          "path": "./icons/themes/grayscale/light/wrench.svg"
+        },
+        "heroku": {
+          "path": "./icons/themes/grayscale/light/cloud.svg"
+        },
+        "image": {
+          "path": "./icons/themes/grayscale/light/framed-picture.svg"
+        },
+        "java": {
+          "path": "./icons/themes/grayscale/light/hot-beverage.svg"
+        },
+        "javascript": {
+          "path": "./icons/themes/grayscale/light/ledger.svg"
+        },
+        "julia": {
+          "path": "./icons/themes/grayscale/light/bar-chart.svg"
+        },
+        "kotlin": {
+          "path": "./icons/themes/grayscale/light/bullseye.svg"
+        },
+        "lock": {
+          "path": "./icons/themes/grayscale/light/locked.svg"
+        },
+        "log": {
+          "path": "./icons/themes/grayscale/light/clipboard.svg"
+        },
+        "lua": {
+          "path": "./icons/themes/grayscale/light/crescent-moon.svg"
+        },
+        "nim": {
+          "path": "./icons/themes/grayscale/light/cat-face.svg"
+        },
+        "nix": {
+          "path": "./icons/themes/grayscale/light/snowflake.svg"
+        },
+        "ocaml": {
+          "path": "./icons/themes/grayscale/light/two-hump-camel.svg"
+        },
+        "php": {
+          "path": "./icons/themes/grayscale/light/elephant.svg"
+        },
+        "prettier": {
+          "path": "./icons/themes/grayscale/light/nail-polish.svg"
+        },
+        "prisma": {
+          "path": "./icons/themes/grayscale/light/gem-stone.svg"
+        },
+        "python": {
+          "path": "./icons/themes/grayscale/light/snake.svg"
+        },
+        "r": {
+          "path": "./icons/themes/grayscale/light/bar-chart.svg"
+        },
+        "react": {
+          "path": "./icons/themes/grayscale/light/atom-symbol.svg"
+        },
+        "ruby": {
+          "path": "./icons/themes/grayscale/light/gem-stone.svg"
+        },
+        "rust": {
+          "path": "./icons/themes/grayscale/light/crab.svg"
+        },
+        "sass": {
+          "path": "./icons/themes/grayscale/light/nail-polish.svg"
+        },
+        "scala": {
+          "path": "./icons/themes/grayscale/light/chart-increasing.svg"
+        },
+        "settings": {
+          "path": "./icons/themes/grayscale/light/gear.svg"
+        },
+        "storage": {
+          "path": "./icons/themes/grayscale/light/floppy-disk.svg"
+        },
+        "swift": {
+          "path": "./icons/themes/grayscale/light/flamingo.svg"
+        },
+        "tcl": {
+          "path": "./icons/themes/grayscale/light/high-voltage.svg"
+        },
+        "template": {
+          "path": "./icons/themes/grayscale/light/clipboard.svg"
+        },
+        "terminal": {
+          "path": "./icons/themes/grayscale/light/desktop-computer.svg"
+        },
+        "terraform": {
+          "path": "./icons/themes/grayscale/light/building-construction.svg"
+        },
+        "toml": {
+          "path": "./icons/themes/grayscale/light/page-facing-up.svg"
+        },
+        "typescript": {
+          "path": "./icons/themes/grayscale/light/blue-book.svg"
+        },
+        "vcs": {
+          "path": "./icons/themes/grayscale/light/package.svg"
+        },
+        "video": {
+          "path": "./icons/themes/grayscale/light/film-frames.svg"
+        },
+        "vue": {
+          "path": "./icons/themes/grayscale/light/green-heart.svg"
+        },
+        "zig": {
+          "path": "./icons/themes/grayscale/light/high-voltage.svg"
+        }
+      }
+    },
+    {
+      "name": "OpenMoji Icon Theme Grayscale (Dark)",
+      "appearance": "dark",
+      "directory_icons": {
+        "collapsed": "./icons/themes/grayscale/dark/file-folder.svg",
+        "expanded": "./icons/themes/grayscale/dark/open-file-folder.svg"
+      },
+      "file_icons": {
+        "astro": {
+          "path": "./icons/themes/grayscale/dark/rocket.svg"
+        },
+        "audio": {
+          "path": "./icons/themes/grayscale/dark/speaker-low-volume.svg"
+        },
+        "bun": {
+          "path": "./icons/themes/grayscale/dark/rabbit-face.svg"
+        },
+        "c": {
+          "path": "./icons/themes/grayscale/dark/racing-car.svg"
+        },
+        "code": {
+          "path": "./icons/themes/grayscale/dark/page-facing-up.svg"
+        },
+        "coffeescript": {
+          "path": "./icons/themes/grayscale/dark/hot-beverage.svg"
+        },
+        "cpp": {
+          "path": "./icons/themes/grayscale/dark/input-latin-uppercase.svg"
+        },
+        "css": {
+          "path": "./icons/themes/grayscale/dark/artist-palette.svg"
+        },
+        "dart": {
+          "path": "./icons/themes/grayscale/dark/bullseye.svg"
+        },
+        "default": {
+          "path": "./icons/themes/grayscale/dark/page-facing-up.svg"
+        },
+        "diff": {
+          "path": "./icons/themes/grayscale/dark/bar-chart.svg"
+        },
+        "docker": {
+          "path": "./icons/themes/grayscale/dark/spouting-whale.svg"
+        },
+        "document": {
+          "path": "./icons/themes/grayscale/dark/memo.svg"
+        },
+        "elixir": {
+          "path": "./icons/themes/grayscale/dark/droplet.svg"
+        },
+        "elm": {
+          "path": "./icons/themes/grayscale/dark/deciduous-tree.svg"
+        },
+        "erlang": {
+          "path": "./icons/themes/grayscale/dark/pager.svg"
+        },
+        "eslint": {
+          "path": "./icons/themes/grayscale/dark/gear.svg"
+        },
+        "font": {
+          "path": "./icons/themes/grayscale/dark/input-latin-lowercase.svg"
+        },
+        "fsharp": {
+          "path": "./icons/themes/grayscale/dark/performing-arts.svg"
+        },
+        "gleam": {
+          "path": "./icons/themes/grayscale/dark/sparkles.svg"
+        },
+        "go": {
+          "path": "./icons/themes/grayscale/dark/hamster.svg"
+        },
+        "graphql": {
+          "path": "./icons/themes/grayscale/dark/bar-chart.svg"
+        },
+        "haskell": {
+          "path": "./icons/themes/grayscale/dark/abacus.svg"
+        },
+        "hcl": {
+          "path": "./icons/themes/grayscale/dark/wrench.svg"
+        },
+        "heroku": {
+          "path": "./icons/themes/grayscale/dark/cloud.svg"
+        },
+        "image": {
+          "path": "./icons/themes/grayscale/dark/framed-picture.svg"
+        },
+        "java": {
+          "path": "./icons/themes/grayscale/dark/hot-beverage.svg"
+        },
+        "javascript": {
+          "path": "./icons/themes/grayscale/dark/ledger.svg"
+        },
+        "julia": {
+          "path": "./icons/themes/grayscale/dark/bar-chart.svg"
+        },
+        "kotlin": {
+          "path": "./icons/themes/grayscale/dark/bullseye.svg"
+        },
+        "lock": {
+          "path": "./icons/themes/grayscale/dark/locked.svg"
+        },
+        "log": {
+          "path": "./icons/themes/grayscale/dark/clipboard.svg"
+        },
+        "lua": {
+          "path": "./icons/themes/grayscale/dark/crescent-moon.svg"
+        },
+        "nim": {
+          "path": "./icons/themes/grayscale/dark/cat-face.svg"
+        },
+        "nix": {
+          "path": "./icons/themes/grayscale/dark/snowflake.svg"
+        },
+        "ocaml": {
+          "path": "./icons/themes/grayscale/dark/two-hump-camel.svg"
+        },
+        "php": {
+          "path": "./icons/themes/grayscale/dark/elephant.svg"
+        },
+        "prettier": {
+          "path": "./icons/themes/grayscale/dark/nail-polish.svg"
+        },
+        "prisma": {
+          "path": "./icons/themes/grayscale/dark/gem-stone.svg"
+        },
+        "python": {
+          "path": "./icons/themes/grayscale/dark/snake.svg"
+        },
+        "r": {
+          "path": "./icons/themes/grayscale/dark/bar-chart.svg"
+        },
+        "react": {
+          "path": "./icons/themes/grayscale/dark/atom-symbol.svg"
+        },
+        "ruby": {
+          "path": "./icons/themes/grayscale/dark/gem-stone.svg"
+        },
+        "rust": {
+          "path": "./icons/themes/grayscale/dark/crab.svg"
+        },
+        "sass": {
+          "path": "./icons/themes/grayscale/dark/nail-polish.svg"
+        },
+        "scala": {
+          "path": "./icons/themes/grayscale/dark/chart-increasing.svg"
+        },
+        "settings": {
+          "path": "./icons/themes/grayscale/dark/gear.svg"
+        },
+        "storage": {
+          "path": "./icons/themes/grayscale/dark/floppy-disk.svg"
+        },
+        "swift": {
+          "path": "./icons/themes/grayscale/dark/flamingo.svg"
+        },
+        "tcl": {
+          "path": "./icons/themes/grayscale/dark/high-voltage.svg"
+        },
+        "template": {
+          "path": "./icons/themes/grayscale/dark/clipboard.svg"
+        },
+        "terminal": {
+          "path": "./icons/themes/grayscale/dark/desktop-computer.svg"
+        },
+        "terraform": {
+          "path": "./icons/themes/grayscale/dark/building-construction.svg"
+        },
+        "toml": {
+          "path": "./icons/themes/grayscale/dark/page-facing-up.svg"
+        },
+        "typescript": {
+          "path": "./icons/themes/grayscale/dark/blue-book.svg"
+        },
+        "vcs": {
+          "path": "./icons/themes/grayscale/dark/package.svg"
+        },
+        "video": {
+          "path": "./icons/themes/grayscale/dark/film-frames.svg"
+        },
+        "vue": {
+          "path": "./icons/themes/grayscale/dark/green-heart.svg"
+        },
+        "zig": {
+          "path": "./icons/themes/grayscale/dark/high-voltage.svg"
+        }
+      }
+    }
+  ]
+}
