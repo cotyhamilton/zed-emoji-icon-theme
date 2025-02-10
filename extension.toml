@@ -4,4 +4,4 @@ version = "0.1.0"
 schema_version = 1
 authors = ["Coty Hamilton"]
 description = "OpenMoji emoji icons"
-repository = "https://github.com/cotyhamilton/zed-openmoji-icon-theme"
+repository = "https://github.com/cotyhamilton/zed-emoji-icon-theme.git"
