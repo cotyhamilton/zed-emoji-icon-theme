@@ -15,7 +15,7 @@ OpenMoji emoji icons for [Zed](https://zed.dev/)
 Requires [Deno](https://deno.com/)
 
 ```bash
-./src/build.ts
+./build.ts
 ```
 
 ## Attribution
