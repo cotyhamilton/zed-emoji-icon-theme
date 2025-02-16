@@ -139,6 +139,14 @@ const buildTheme = async (theme: Theme) => {
 };
 
 if (import.meta.main) {
+  try {
+    await Deno.remove(import.meta.dirname + "/../icons/themes", {
+      recursive: true,
+    });
+  } catch {
+    // Directory doesn't exist
+  }
+
   for (let i = 0; i < themes.length; ++i) {
     const theme = themes[i];
     const { dirIconsThemeData, fileIconsThemeData } = await buildTheme(theme);
