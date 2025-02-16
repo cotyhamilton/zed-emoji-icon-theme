@@ -1,5 +1,10 @@
 {
   "file_stems": {
-    "deno": "deno"
+    "LICENSE": "license"
+  },
+  "file_suffixes": {
+    "deno.json": "deno",
+    "deno.jsonc": "deno",
+    "LICENSE.txt": "license"
   }
 }

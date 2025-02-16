@@ -7,7 +7,12 @@
       "name": "OpenMoji Icon Theme",
       "appearance": "dark",
       "file_stems": {
-        "deno": "deno"
+        "LICENSE": "license"
+      },
+      "file_suffixes": {
+        "deno.json": "deno",
+        "deno.jsonc": "deno",
+        "LICENSE.txt": "license"
       },
       "directory_icons": {
         "collapsed": "./icons/themes/color/file-folder.svg",
@@ -133,6 +138,9 @@
         },
         "kotlin": {
           "path": "./icons/themes/color/bullseye.svg"
+        },
+        "license": {
+          "path": "./icons/themes/color/balance-scale.svg"
         },
         "lock": {
           "path": "./icons/themes/color/locked.svg"
@@ -263,7 +271,12 @@
       "name": "OpenMoji Icon Theme Grayscale (Light)",
       "appearance": "light",
       "file_stems": {
-        "deno": "deno"
+        "LICENSE": "license"
+      },
+      "file_suffixes": {
+        "deno.json": "deno",
+        "deno.jsonc": "deno",
+        "LICENSE.txt": "license"
       },
       "directory_icons": {
         "collapsed": "./icons/themes/grayscale/light/file-folder.svg",
@@ -389,6 +402,9 @@
         },
         "kotlin": {
           "path": "./icons/themes/grayscale/light/bullseye.svg"
+        },
+        "license": {
+          "path": "./icons/themes/grayscale/light/balance-scale.svg"
         },
         "lock": {
           "path": "./icons/themes/grayscale/light/locked.svg"
@@ -519,7 +535,12 @@
       "name": "OpenMoji Icon Theme Grayscale (Dark)",
       "appearance": "dark",
       "file_stems": {
-        "deno": "deno"
+        "LICENSE": "license"
+      },
+      "file_suffixes": {
+        "deno.json": "deno",
+        "deno.jsonc": "deno",
+        "LICENSE.txt": "license"
       },
       "directory_icons": {
         "collapsed": "./icons/themes/grayscale/dark/file-folder.svg",
@@ -645,6 +666,9 @@
         },
         "kotlin": {
           "path": "./icons/themes/grayscale/dark/bullseye.svg"
+        },
+        "license": {
+          "path": "./icons/themes/grayscale/dark/balance-scale.svg"
         },
         "lock": {
           "path": "./icons/themes/grayscale/dark/locked.svg"
