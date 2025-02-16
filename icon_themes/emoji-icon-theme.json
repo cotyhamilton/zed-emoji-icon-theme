@@ -1,11 +1,14 @@
 {
-  "$schema": "https://zed.dev/schema/icon_themes/v0.1.0.json",
-  "name": "OpenMoji Emoji Icon Theme",
+  "$schema": "https://zed.dev/schema/icon_themes/v0.2.0.json",
+  "name": "OpenMoji Emoji Icons Theme",
   "author": "Coty Hamilton",
   "themes": [
     {
       "name": "OpenMoji Icon Theme",
       "appearance": "dark",
+      "file_stems": {
+        "deno": "deno"
+      },
       "directory_icons": {
         "collapsed": "./icons/themes/color/file-folder.svg",
         "expanded": "./icons/themes/color/open-file-folder.svg"
@@ -16,6 +19,9 @@
         },
         "audio": {
           "path": "./icons/themes/color/speaker-low-volume.svg"
+        },
+        "bicep": {
+          "path": "./icons/themes/color/flexed-biceps.svg"
         },
         "bun": {
           "path": "./icons/themes/color/rabbit-face.svg"
@@ -32,14 +38,29 @@
         "cpp": {
           "path": "./icons/themes/color/input-latin-uppercase.svg"
         },
+        "crystal": {
+          "path": "./icons/themes/color/gem-stone.svg"
+        },
+        "csharp": {
+          "path": "./icons/themes/color/keycap:-#.svg"
+        },
+        "csproj": {
+          "path": "./icons/themes/color/bullseye.svg"
+        },
         "css": {
           "path": "./icons/themes/color/artist-palette.svg"
+        },
+        "cue": {
+          "path": "./icons/themes/color/bullseye.svg"
         },
         "dart": {
           "path": "./icons/themes/color/bullseye.svg"
         },
         "default": {
           "path": "./icons/themes/color/page-facing-up.svg"
+        },
+        "deno": {
+          "path": "./icons/themes/color/sauropod.svg"
         },
         "diff": {
           "path": "./icons/themes/color/bar-chart.svg"
@@ -68,6 +89,12 @@
         "fsharp": {
           "path": "./icons/themes/color/performing-arts.svg"
         },
+        "fsproj": {
+          "path": "./icons/themes/color/performing-arts.svg"
+        },
+        "gitlab": {
+          "path": "./icons/themes/color/fox.svg"
+        },
         "gleam": {
           "path": "./icons/themes/color/sparkles.svg"
         },
@@ -86,6 +113,9 @@
         "heroku": {
           "path": "./icons/themes/color/cloud.svg"
         },
+        "html": {
+          "path": "./icons/themes/color/page-facing-up.svg"
+        },
         "image": {
           "path": "./icons/themes/color/framed-picture.svg"
         },
@@ -94,6 +124,9 @@
         },
         "javascript": {
           "path": "./icons/themes/color/ledger.svg"
+        },
+        "json": {
+          "path": "./icons/themes/color/floppy-disk.svg"
         },
         "julia": {
           "path": "./icons/themes/color/bar-chart.svg"
@@ -110,6 +143,15 @@
         "lua": {
           "path": "./icons/themes/color/crescent-moon.svg"
         },
+        "luau": {
+          "path": "./icons/themes/color/video-game.svg"
+        },
+        "markdown": {
+          "path": "./icons/themes/color/memo.svg"
+        },
+        "metal": {
+          "path": "./icons/themes/color/gear.svg"
+        },
         "nim": {
           "path": "./icons/themes/color/cat-face.svg"
         },
@@ -118,6 +160,9 @@
         },
         "ocaml": {
           "path": "./icons/themes/color/two-hump-camel.svg"
+        },
+        "phoenix": {
+          "path": "./icons/themes/color/phoenix.svg"
         },
         "php": {
           "path": "./icons/themes/color/elephant.svg"
@@ -137,6 +182,9 @@
         "react": {
           "path": "./icons/themes/color/atom-symbol.svg"
         },
+        "roc": {
+          "path": "./icons/themes/color/rock.svg"
+        },
         "ruby": {
           "path": "./icons/themes/color/gem-stone.svg"
         },
@@ -152,8 +200,17 @@
         "settings": {
           "path": "./icons/themes/color/gear.svg"
         },
+        "solidity": {
+          "path": "./icons/themes/color/money-bag.svg"
+        },
         "storage": {
           "path": "./icons/themes/color/floppy-disk.svg"
+        },
+        "stylelint": {
+          "path": "./icons/themes/color/lipstick.svg"
+        },
+        "svelte": {
+          "path": "./icons/themes/color/orange-heart.svg"
         },
         "swift": {
           "path": "./icons/themes/color/flamingo.svg"
@@ -176,11 +233,23 @@
         "typescript": {
           "path": "./icons/themes/color/blue-book.svg"
         },
+        "v": {
+          "path": "./icons/themes/color/high-voltage.svg"
+        },
+        "vbproj": {
+          "path": "./icons/themes/color/bullseye.svg"
+        },
         "vcs": {
           "path": "./icons/themes/color/package.svg"
         },
         "video": {
           "path": "./icons/themes/color/film-frames.svg"
+        },
+        "vs_sln": {
+          "path": "./icons/themes/color/window.svg"
+        },
+        "vs_suo": {
+          "path": "./icons/themes/color/window.svg"
         },
         "vue": {
           "path": "./icons/themes/color/green-heart.svg"
@@ -193,6 +262,9 @@
     {
       "name": "OpenMoji Icon Theme Grayscale (Light)",
       "appearance": "light",
+      "file_stems": {
+        "deno": "deno"
+      },
       "directory_icons": {
         "collapsed": "./icons/themes/grayscale/light/file-folder.svg",
         "expanded": "./icons/themes/grayscale/light/open-file-folder.svg"
@@ -203,6 +275,9 @@
         },
         "audio": {
           "path": "./icons/themes/grayscale/light/speaker-low-volume.svg"
+        },
+        "bicep": {
+          "path": "./icons/themes/grayscale/light/flexed-biceps.svg"
         },
         "bun": {
           "path": "./icons/themes/grayscale/light/rabbit-face.svg"
@@ -219,14 +294,29 @@
         "cpp": {
           "path": "./icons/themes/grayscale/light/input-latin-uppercase.svg"
         },
+        "crystal": {
+          "path": "./icons/themes/grayscale/light/gem-stone.svg"
+        },
+        "csharp": {
+          "path": "./icons/themes/grayscale/light/keycap:-#.svg"
+        },
+        "csproj": {
+          "path": "./icons/themes/grayscale/light/bullseye.svg"
+        },
         "css": {
           "path": "./icons/themes/grayscale/light/artist-palette.svg"
+        },
+        "cue": {
+          "path": "./icons/themes/grayscale/light/bullseye.svg"
         },
         "dart": {
           "path": "./icons/themes/grayscale/light/bullseye.svg"
         },
         "default": {
           "path": "./icons/themes/grayscale/light/page-facing-up.svg"
+        },
+        "deno": {
+          "path": "./icons/themes/grayscale/light/sauropod.svg"
         },
         "diff": {
           "path": "./icons/themes/grayscale/light/bar-chart.svg"
@@ -255,6 +345,12 @@
         "fsharp": {
           "path": "./icons/themes/grayscale/light/performing-arts.svg"
         },
+        "fsproj": {
+          "path": "./icons/themes/grayscale/light/performing-arts.svg"
+        },
+        "gitlab": {
+          "path": "./icons/themes/grayscale/light/fox.svg"
+        },
         "gleam": {
           "path": "./icons/themes/grayscale/light/sparkles.svg"
         },
@@ -273,6 +369,9 @@
         "heroku": {
           "path": "./icons/themes/grayscale/light/cloud.svg"
         },
+        "html": {
+          "path": "./icons/themes/grayscale/light/page-facing-up.svg"
+        },
         "image": {
           "path": "./icons/themes/grayscale/light/framed-picture.svg"
         },
@@ -281,6 +380,9 @@
         },
         "javascript": {
           "path": "./icons/themes/grayscale/light/ledger.svg"
+        },
+        "json": {
+          "path": "./icons/themes/grayscale/light/floppy-disk.svg"
         },
         "julia": {
           "path": "./icons/themes/grayscale/light/bar-chart.svg"
@@ -297,6 +399,15 @@
         "lua": {
           "path": "./icons/themes/grayscale/light/crescent-moon.svg"
         },
+        "luau": {
+          "path": "./icons/themes/grayscale/light/video-game.svg"
+        },
+        "markdown": {
+          "path": "./icons/themes/grayscale/light/memo.svg"
+        },
+        "metal": {
+          "path": "./icons/themes/grayscale/light/gear.svg"
+        },
         "nim": {
           "path": "./icons/themes/grayscale/light/cat-face.svg"
         },
@@ -305,6 +416,9 @@
         },
         "ocaml": {
           "path": "./icons/themes/grayscale/light/two-hump-camel.svg"
+        },
+        "phoenix": {
+          "path": "./icons/themes/grayscale/light/phoenix.svg"
         },
         "php": {
           "path": "./icons/themes/grayscale/light/elephant.svg"
@@ -324,6 +438,9 @@
         "react": {
           "path": "./icons/themes/grayscale/light/atom-symbol.svg"
         },
+        "roc": {
+          "path": "./icons/themes/grayscale/light/rock.svg"
+        },
         "ruby": {
           "path": "./icons/themes/grayscale/light/gem-stone.svg"
         },
@@ -339,8 +456,17 @@
         "settings": {
           "path": "./icons/themes/grayscale/light/gear.svg"
         },
+        "solidity": {
+          "path": "./icons/themes/grayscale/light/money-bag.svg"
+        },
         "storage": {
           "path": "./icons/themes/grayscale/light/floppy-disk.svg"
+        },
+        "stylelint": {
+          "path": "./icons/themes/grayscale/light/lipstick.svg"
+        },
+        "svelte": {
+          "path": "./icons/themes/grayscale/light/orange-heart.svg"
         },
         "swift": {
           "path": "./icons/themes/grayscale/light/flamingo.svg"
@@ -363,11 +489,23 @@
         "typescript": {
           "path": "./icons/themes/grayscale/light/blue-book.svg"
         },
+        "v": {
+          "path": "./icons/themes/grayscale/light/high-voltage.svg"
+        },
+        "vbproj": {
+          "path": "./icons/themes/grayscale/light/bullseye.svg"
+        },
         "vcs": {
           "path": "./icons/themes/grayscale/light/package.svg"
         },
         "video": {
           "path": "./icons/themes/grayscale/light/film-frames.svg"
+        },
+        "vs_sln": {
+          "path": "./icons/themes/grayscale/light/window.svg"
+        },
+        "vs_suo": {
+          "path": "./icons/themes/grayscale/light/window.svg"
         },
         "vue": {
           "path": "./icons/themes/grayscale/light/green-heart.svg"
@@ -380,6 +518,9 @@
     {
       "name": "OpenMoji Icon Theme Grayscale (Dark)",
       "appearance": "dark",
+      "file_stems": {
+        "deno": "deno"
+      },
       "directory_icons": {
         "collapsed": "./icons/themes/grayscale/dark/file-folder.svg",
         "expanded": "./icons/themes/grayscale/dark/open-file-folder.svg"
@@ -390,6 +531,9 @@
         },
         "audio": {
           "path": "./icons/themes/grayscale/dark/speaker-low-volume.svg"
+        },
+        "bicep": {
+          "path": "./icons/themes/grayscale/dark/flexed-biceps.svg"
         },
         "bun": {
           "path": "./icons/themes/grayscale/dark/rabbit-face.svg"
@@ -406,14 +550,29 @@
         "cpp": {
           "path": "./icons/themes/grayscale/dark/input-latin-uppercase.svg"
         },
+        "crystal": {
+          "path": "./icons/themes/grayscale/dark/gem-stone.svg"
+        },
+        "csharp": {
+          "path": "./icons/themes/grayscale/dark/keycap:-#.svg"
+        },
+        "csproj": {
+          "path": "./icons/themes/grayscale/dark/bullseye.svg"
+        },
         "css": {
           "path": "./icons/themes/grayscale/dark/artist-palette.svg"
+        },
+        "cue": {
+          "path": "./icons/themes/grayscale/dark/bullseye.svg"
         },
         "dart": {
           "path": "./icons/themes/grayscale/dark/bullseye.svg"
         },
         "default": {
           "path": "./icons/themes/grayscale/dark/page-facing-up.svg"
+        },
+        "deno": {
+          "path": "./icons/themes/grayscale/dark/sauropod.svg"
         },
         "diff": {
           "path": "./icons/themes/grayscale/dark/bar-chart.svg"
@@ -442,6 +601,12 @@
         "fsharp": {
           "path": "./icons/themes/grayscale/dark/performing-arts.svg"
         },
+        "fsproj": {
+          "path": "./icons/themes/grayscale/dark/performing-arts.svg"
+        },
+        "gitlab": {
+          "path": "./icons/themes/grayscale/dark/fox.svg"
+        },
         "gleam": {
           "path": "./icons/themes/grayscale/dark/sparkles.svg"
         },
@@ -460,6 +625,9 @@
         "heroku": {
           "path": "./icons/themes/grayscale/dark/cloud.svg"
         },
+        "html": {
+          "path": "./icons/themes/grayscale/dark/page-facing-up.svg"
+        },
         "image": {
           "path": "./icons/themes/grayscale/dark/framed-picture.svg"
         },
@@ -468,6 +636,9 @@
         },
         "javascript": {
           "path": "./icons/themes/grayscale/dark/ledger.svg"
+        },
+        "json": {
+          "path": "./icons/themes/grayscale/dark/floppy-disk.svg"
         },
         "julia": {
           "path": "./icons/themes/grayscale/dark/bar-chart.svg"
@@ -484,6 +655,15 @@
         "lua": {
           "path": "./icons/themes/grayscale/dark/crescent-moon.svg"
         },
+        "luau": {
+          "path": "./icons/themes/grayscale/dark/video-game.svg"
+        },
+        "markdown": {
+          "path": "./icons/themes/grayscale/dark/memo.svg"
+        },
+        "metal": {
+          "path": "./icons/themes/grayscale/dark/gear.svg"
+        },
         "nim": {
           "path": "./icons/themes/grayscale/dark/cat-face.svg"
         },
@@ -492,6 +672,9 @@
         },
         "ocaml": {
           "path": "./icons/themes/grayscale/dark/two-hump-camel.svg"
+        },
+        "phoenix": {
+          "path": "./icons/themes/grayscale/dark/phoenix.svg"
         },
         "php": {
           "path": "./icons/themes/grayscale/dark/elephant.svg"
@@ -511,6 +694,9 @@
         "react": {
           "path": "./icons/themes/grayscale/dark/atom-symbol.svg"
         },
+        "roc": {
+          "path": "./icons/themes/grayscale/dark/rock.svg"
+        },
         "ruby": {
           "path": "./icons/themes/grayscale/dark/gem-stone.svg"
         },
@@ -526,8 +712,17 @@
         "settings": {
           "path": "./icons/themes/grayscale/dark/gear.svg"
         },
+        "solidity": {
+          "path": "./icons/themes/grayscale/dark/money-bag.svg"
+        },
         "storage": {
           "path": "./icons/themes/grayscale/dark/floppy-disk.svg"
+        },
+        "stylelint": {
+          "path": "./icons/themes/grayscale/dark/lipstick.svg"
+        },
+        "svelte": {
+          "path": "./icons/themes/grayscale/dark/orange-heart.svg"
         },
         "swift": {
           "path": "./icons/themes/grayscale/dark/flamingo.svg"
@@ -550,11 +745,23 @@
         "typescript": {
           "path": "./icons/themes/grayscale/dark/blue-book.svg"
         },
+        "v": {
+          "path": "./icons/themes/grayscale/dark/high-voltage.svg"
+        },
+        "vbproj": {
+          "path": "./icons/themes/grayscale/dark/bullseye.svg"
+        },
         "vcs": {
           "path": "./icons/themes/grayscale/dark/package.svg"
         },
         "video": {
           "path": "./icons/themes/grayscale/dark/film-frames.svg"
+        },
+        "vs_sln": {
+          "path": "./icons/themes/grayscale/dark/window.svg"
+        },
+        "vs_suo": {
+          "path": "./icons/themes/grayscale/dark/window.svg"
         },
         "vue": {
           "path": "./icons/themes/grayscale/dark/green-heart.svg"

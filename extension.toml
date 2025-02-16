@@ -1,6 +1,6 @@
 id = "openmoji-icons"
-name = "OpenMoji Emoji Icon Theme"
-version = "0.1.0"
+name = "OpenMoji Emoji Icons Theme"
+version = "0.2.0"
 schema_version = 1
 authors = ["Coty Hamilton"]
 description = "OpenMoji emoji icons"

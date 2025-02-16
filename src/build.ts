@@ -1,12 +1,12 @@
 #!/usr/bin/env -S deno run --allow-read --allow-write --no-lock
 import { parse } from "jsr:@std/csv/parse";
 import { openmojis } from "npm:openmoji";
+import themeBase from "./theme-base.json" with { type: "json" };
 
 type Theme = {
   name: string;
   appearance: "light" | "dark";
   iconsPath: string;
-  themePath: string;
   color: "color" | "black";
 };
 
@@ -15,21 +15,18 @@ const themes: Theme[] = [
     name: "OpenMoji Icon Theme",
     appearance: "dark",
     iconsPath: "./icons/themes/color",
-    themePath: "./themes/base",
     color: "color",
   },
   {
     name: "OpenMoji Icon Theme Grayscale (Light)",
     appearance: "light",
     iconsPath: "./icons/themes/grayscale/light",
-    themePath: "./themes/base",
     color: "black",
   },
   {
     name: "OpenMoji Icon Theme Grayscale (Dark)",
     appearance: "dark",
     iconsPath: "./icons/themes/grayscale/dark",
-    themePath: "./themes/base",
     color: "black",
   },
 ];
@@ -62,8 +59,19 @@ const buildTheme = async (theme: Theme) => {
   const processIcons = async (data: { emoji: string; type: string }) => {
     const emoji = data.emoji;
     const hex = emoji.codePointAt(0)?.toString(16);
+
+    let emojiData;
     // @ts-ignore - no types for openmoji
-    const emojiData = openmojis.find((o) => o.hexcode.toLowerCase() === hex);
+    emojiData = openmojis.find((o) => o.emoji === emoji);
+
+    if (!emojiData) {
+      // @ts-ignore - no types for openmoji
+      emojiData = openmojis.find((o) => o.hexcode.toLowerCase() === hex);
+    }
+
+    if (!emojiData) {
+      throw new Error(`Emoji not found: ${emoji}`);
+    }
 
     console.log({ ...data, hex, emojiData: !!emojiData });
 
@@ -93,7 +101,7 @@ const buildTheme = async (theme: Theme) => {
   };
 
   const dirIconsData = parse(
-    await Deno.readTextFile(`${theme.themePath}/directory-icons.csv`),
+    await Deno.readTextFile(import.meta.dirname + "/directory-icons.csv"),
     {
       skipFirstRow: true,
       columns: ["type", "emoji"],
@@ -101,7 +109,7 @@ const buildTheme = async (theme: Theme) => {
   );
 
   const fileIconsData = parse(
-    await Deno.readTextFile(`${theme.themePath}/file-icons.csv`),
+    await Deno.readTextFile(import.meta.dirname + "/file-icons.csv"),
     {
       skipFirstRow: true,
       columns: ["type", "emoji"],
@@ -138,6 +146,7 @@ if (import.meta.main) {
     themeData.themes[i] = {
       name: themes[i].name,
       appearance: themes[i].appearance,
+      ...themeBase,
       directory_icons: dirIconsThemeData,
       file_icons: fileIconsThemeData,
     };

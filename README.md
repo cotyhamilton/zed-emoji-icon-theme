@@ -1,4 +1,4 @@
-# OpenMoji Emoji Icon Theme
+# OpenMoji Emoji Icons Theme
 
 OpenMoji emoji icons for [Zed](https://zed.dev/)
 
@@ -15,7 +15,7 @@ OpenMoji emoji icons for [Zed](https://zed.dev/)
 Requires [Deno](https://deno.com/)
 
 ```bash
-./build.ts
+./src/build.ts
 ```
 
 ## Attribution
